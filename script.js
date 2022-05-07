@@ -3,13 +3,13 @@ var name=document.myform.name.value;
 var password=document.myform.password.value;  
 var number=document.myform.number.value;  
 var mail=document.myform.mail.value;
-var ad=document.myform.adrsee.value;
+var ad=document.myform.ad.value;
   
 if (name==null || name==""){  
   alert("Name can't be blank");  
   return false;  
 }else if(password==null || password==""){  
-  alert("Password must be at least 6 characters long."); 
+  alert("Password can't be blank"); 
   return false;  
   } else if (number==null || number==""){  
   alert("Number can't be blank");  
