@@ -1,6 +1,7 @@
 //Extract value from input box
 
-function validateform(){  
+function validateform(){ 
+//set variable
 var name=document.myform.name.value;  
 var password=document.myform.password.value;  
 var number=document.myform.number.value;  
